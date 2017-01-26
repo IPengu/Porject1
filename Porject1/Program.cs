@@ -27,7 +27,7 @@ namespace Porject1
             Console.WriteLine("Is Amefa sane? " + isBlueSane); //Outputs : Is Amefa sane? false
 
             //Waits for user input to continue the program
-            Console.WriteLine("Press any key to continue"); 
+            Console.WriteLine("Press any key to continue");
             Console.ReadKey(); //Reads the input in order to continue
 
 
@@ -41,7 +41,7 @@ namespace Porject1
             /*Converts the user input to int32 and reads it then displays it, next is practice until i say so.*/
             Console.WriteLine("How old are you?");
             int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("So, you are {0} years old.",age);
+            Console.WriteLine("So, you are {0} years old.", age);
 
             Console.WriteLine("What gender are you?");
             string gender = Console.ReadLine();
@@ -53,7 +53,7 @@ namespace Porject1
             Console.ReadKey();
 
             /*Sets the var top to 69 and displays it.*/
-            var top = 69; 
+            var top = 69;
             Console.WriteLine("var top is " + top);
 
             Console.WriteLine("Press any key to continue");
@@ -82,9 +82,9 @@ namespace Porject1
              * 
              */
 
-            Console.WriteLine
             int op_y = 70;
             int op_x = 1;
+            Console.WriteLine("Press any key to calculate op_y minus op_x", op_y - op_x);
             Console.WriteLine(op_y - op_x);
 
             Console.WriteLine("Press any key to continue");
