@@ -84,9 +84,14 @@ namespace Porject1
 
             int op_y = 70;
             int op_x = 1;
+            int op_d = 2;
             Console.WriteLine("Press any key to calculate op_y minus op_x", op_y - op_x);
-
-            Console.WriteLine("Press any key to continue");
+            Console.ReadKey();
+            Console.WriteLine("Press any key to calculate op_y plus op_x", op_y + op_x);
+            Console.ReadKey();
+            Console.WriteLine("Press any key to calculate op_y multiplied by op_x", op_y + op_x);
+            Console.ReadKey();
+            Console.WriteLine("Press any key to calculate op_y divided by op_d", op_y / op_d);
             Console.ReadKey();
 
 
