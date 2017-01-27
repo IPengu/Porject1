@@ -10,6 +10,11 @@ namespace Porject1
     {
         static void Main(string[] args)//Static is a static variable and methods belong to the class instead of a specific instance
         {
+
+            /* PENGU_TEST APP Porject 1 v.1
+             * build 13 27_01_2017:20:03
+             */
+
             int UrAge = 1; //You're one year old|A
 
             int boyngirl;
@@ -26,9 +31,18 @@ namespace Porject1
             Console.WriteLine("Bie wrold" + "x = {0}; pi = {1}", x, pi); //This gets the int x and double pi
             Console.WriteLine("Is Amefa sane? " + isBlueSane); //Outputs : Is Amefa sane? false
 
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+
+
             //Waits for user input to continue the program
             Console.WriteLine("Press any key to continue"); 
             Console.ReadKey(); //Reads the input in order to continue
+            Console.Clear();// Clears the console
 
 
             string urNaem;
@@ -51,6 +65,7 @@ namespace Porject1
 
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
+            Console.Clear();
 
             /*Sets the var top to 69 and displays it.*/
             var top = 69; 
@@ -58,6 +73,7 @@ namespace Porject1
 
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
+            Console.Clear();
 
             /*Constants store a value that cannot be changed from their initial assignment.
              Sets const "constpi" to 3.14 and errors when trying to change it because constants can be changed.*/
@@ -74,6 +90,7 @@ namespace Porject1
 
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
+            Console.Clear();
 
             /*An operator is a symbol that performs mathematical or logical manipulations.
              *  You can do operations with Console.WriteLine
@@ -94,9 +111,43 @@ namespace Porject1
             Console.WriteLine("op_y divided by op_d is {0}", op_y / op_d);
             Console.ReadKey();
 
+            /*You can also do this:
+             * int x = 42;
+             * int y = 7;
+             * int z = x * y;
+             * Console.WriteLine(z); 
+             */
+
+            int p = 76;
+            Console.WriteLine("The int p is {0}", p);
+            p = p += 5; // Equivalent to p = p + 5
+            Console.WriteLine("The int p is now {0}", p);
+            p = p -= 5; // Equivalent to p = p - 5
+            Console.WriteLine("The int p is now {0}", p);
+
+            int c = 8;
+            Console.WriteLine("The int c is {0}", c);
+            c++; // Equivalent to c = c + 1; 
+            Console.WriteLine("The int c is now {0}", c); // Outputs 9
+
+            /*The increment operator has two forms, prefix and postfix.
+             * Prefix increments the value, and then proceeds with the expression. 
+             * Postfix evaluates the expression and then performs the incrementing. 
+             */
+
+            int pengu = 10;
+            Console.WriteLine("The int pengu is {0}", pengu);
+            int pr0n = ++pengu;
+            Console.WriteLine("The int pr0n is {0}", pr0n);
+            int pr0ngu = pengu++;
+            Console.WriteLine("The int pr0ngu is {0}", pr0ngu);
+            // pengu is 10, both pr0n and pr0ngu are 11.
+
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
+            Console.Clear();
 
+            // The end.
 
         }
     }
